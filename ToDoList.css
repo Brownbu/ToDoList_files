@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(247, 225, 104);
+    margin: 0px 100px 80px 100px;
+}
+
+#heading{
+ font-size: 250%;
+ font-style: italic;
+ padding: 0% 40% 0% 30%;
+}
+
+.individualLists{
+    display: flex;
+}
+
+
+#innerEditDelete1,
+#innerEditDelete2,
+#innerEditDelete3,
+#innerEditDelete4,
+#innerEditDelete5,
+#innerEditDelete6 {
+    display: none;
+}
+
+#main{
+    background-color: rgba(151, 133, 133, 0.3);
+    padding: 20px 70px 20px 50px;
+}
+
+#input1,
+#input2,
+#input3,
+#input4,
+#input5,
+#input6{
+    padding: 15px;
+    margin: 10px;
+    border-style: dotted;
+    border-width: 0px 0px 2px 0px;
+    background-color: rgba(151, 133, 133, 0.01);
+    width: 80%;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#time{
+    padding: 15px;
+    margin: 10px;
+    border-style: dotted;
+    border-width: 0px 0px 2px 0px;
+    background-color: rgba(151, 133, 133, 0.01);
+    width: 10%;
+    font-size: 20px;
+}
+
+.innerEditDelete button{
+    padding: 0px 0px 0px 0px;
+    background-color: greenyellow;
+    margin: 10px 2px 9px 2px;
+    padding: 0px 4px 0px 4px;
+    border: 0px;
+}
